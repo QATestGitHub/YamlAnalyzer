@@ -21,6 +21,7 @@ spec:
         app: carbo-test-ui
     spec:
       securityContext:
+        allowPrivilegeEscalation: false
         fsGroup: 412
       containers:
         - name: carbo-test-ui
