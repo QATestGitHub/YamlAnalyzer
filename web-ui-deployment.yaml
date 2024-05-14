@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: carbo-test-ui-deployment
   namespace: "carbo-test"
-  labels:
+  labels: testing
     app: carbo-test-ui
 spec:
   replicas: 1
