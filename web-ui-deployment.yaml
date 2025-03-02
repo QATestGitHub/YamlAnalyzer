@@ -1,7 +1,7 @@
 apiVersion: apps/v1beta1
 kind: Deployment
 metadata:
-  name: carbo-test-ui-deployment
+  name: carbo-test-ui-deployment PR
   namespace: "carbo-test"
   labels:
     app: carbo-test-ui
